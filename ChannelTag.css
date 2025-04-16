@@ -1,0 +1,20 @@
+:root {
+  --Channel-Tag: "channel";
+  --Badge-BG: #2c1c0c;
+  --Badge-Color: white;
+  --Badge-Round: 999px;
+  --Badge-Padding: 2px 6px;
+  --Badge-Font: var(--font-code);
+}
+
+[class*=linkTop_]:not(:has([class*=iconContainer_] [d^="M18.09 1.63"])) > [class*=children_]::after {
+  content: var(--Channel-Tag);
+  background: var(--Badge-BG);
+  color: var(--Badge-Color);
+  font-family: var(--Badge-Font);
+  padding: var(--Badge-Padding);
+  border-radius: var(--Badge-Round);
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 6px;
+}
