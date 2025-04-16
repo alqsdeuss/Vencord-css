@@ -1,0 +1,37 @@
+:root {
+  --Tag-Text: "⚠️";
+}
+
+[class*=linkTop_]:has([class*=iconContainer_] [d^="M18.09 1.63"]) > [class*=children_]::after {
+  content: var(--Tag-Text); 
+  background: #947c68;
+  color: white;
+  font-family: var(--font-code);
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 6px;
+  transition: all 0.2s ease;
+}
+
+[class*=iconWrapper_]:has([d^="M18.09 1.63"]) ~ [class*=titleWrapper_] h1::after,
+[class*=autocompleteRowIcon__]:has([d^="M18.09 1.63"]) ~ [class*=autocompleteRowContentPrimary__] ::after,
+[class*=searchResultChannelIcon__]:has([d^="M18.09 1.63"]) ~ [class*=searchResultChannelCategory__]::after {
+  content: var(--Tag-Text); 
+  background: #947c68;
+  color: white;
+  font-family: var(--font-code);
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 6px;
+}
+
+[class^=icon__] path[d^="M18.09 1.63"],
+[class^=searchResultChannelIcon__] path[d^="M18.09 1.63c.4-.7 1.43-.7"],
+.ping__06d62 path[d^="M18.09 14.63c.4-.7"],
+[class^=contents__] path[d^=" M-10,10 C-10,10 10,-10 10,-10"] {
+  fill: rgb(255, 0, 0) !important;
+}
