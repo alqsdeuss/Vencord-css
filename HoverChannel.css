@@ -1,0 +1,4 @@
+[class*="containerDefault"]:hover {
+  background-color: rgba(239, 60, 255, 0.568);
+  border-radius: 10px;
+}
