@@ -1,0 +1,22 @@
+[class*="addButton"] {
+    background: linear-gradient(270deg, #ff69b4, #c084fc, #ff69b4);
+    background-size: 600% 600%;
+    animation: gradientMove 5s ease infinite;
+
+    border-radius: 12px !important;
+    color: black !important;
+    border: none !important;
+    width: 28px !important;
+    height: 28px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
