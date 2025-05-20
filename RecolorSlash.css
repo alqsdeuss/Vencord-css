@@ -1,0 +1,31 @@
+[class*="autocomplete"] {
+    background: #121212 !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+[class*="optionContainer"] {
+    background: transparent !important;
+    border-radius: 8px;
+    padding: 6px;
+    margin-bottom: 4px;
+    transition: background 0.1s ease;
+}
+
+[class*="optionContainer"]:hover {
+    background: rgba(255, 255, 255, 0.025);
+}
+
+[class*="commandName"],
+[class*="description"],
+[class*="optionTitle"] {
+    color: #e0e0e0 !important;
+    font-weight: 500;
+}
+
+[class*="iconContainer"] img {
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.1);
+}
