@@ -19,7 +19,7 @@ You won’t find complicated themes or major overhauls here, just clear, easy-to
 * Add extra style and clarity to your chat and server interface.
 * Access simple, well-documented, and easy-to-integrate code.
 
-How to use?
+# How to use?
 
 1. Pick the CSS snippet you like from the collection.
 2. Copy the code into your Vencord CSS file.
