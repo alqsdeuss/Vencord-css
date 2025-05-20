@@ -1,0 +1,5 @@
+[aria-label="Create Invite"],
+[class*="inviteButton"],
+button[aria-label="Invite People"] {
+    display: none !important;
+}
