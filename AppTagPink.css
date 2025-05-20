@@ -1,0 +1,16 @@
+[class*="botTag"] {
+    background: linear-gradient(270deg, #ff69b4, #c084fc, #ff69b4);
+    background-size: 600% 600%;
+    animation: gradientMove 5s ease infinite;
+
+    color: black !important;
+    border-radius: 999px !important;
+    border: none !important;
+    font-weight: bold;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
