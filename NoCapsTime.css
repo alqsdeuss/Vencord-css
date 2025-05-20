@@ -1,0 +1,3 @@
+[class*="timestamp"] {
+    text-transform: lowercase !important;
+}
