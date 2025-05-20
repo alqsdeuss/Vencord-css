@@ -1,0 +1,7 @@
+* {
+    cursor: url("https://media.discordapp.net/attachments/1255919453900640377/1374480208492494948/material-custom-cursor.png?ex=682e33f2&is=682ce272&hm=abeea10426d9be53808275f21d2cee1f9fe73b6c196ffe5c0b216d4235feb513&=&format=webp&quality=lossless&width=25&height=25"), auto !important;
+}
+
+a, button, input, label, .clickable, [role="button"], [onclick] {
+    cursor: url("https://media.discordapp.net/attachments/1363560724328349902/1374481967742976010/download.png?ex=682e3595&is=682ce415&hm=996655a50380478863d5db82010150f80135d63125cc0d6fddc696f44edd1e17&=&format=webp&quality=lossless&width=36&height=38"), pointer !important;
+}
