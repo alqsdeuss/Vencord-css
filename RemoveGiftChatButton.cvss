@@ -1,0 +1,4 @@
+button[aria-label*="Gift"], 
+button[aria-label*="Send a gift"] {
+    display: none !important;
+}
