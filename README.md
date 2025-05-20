@@ -1,7 +1,7 @@
 # Vencord CSS Collection
 
 This project is an organized collection of small, practical, and efficient CSS snippets designed to enhance your visual experience on Discord using Vencord.
-You won’t find complicated themes or major overhauls here—just clear, easy-to-understand code that you can quickly apply to add extra functionality and style without completely changing the interface.
+You won’t find complicated themes or major overhauls here, just clear, easy-to-understand code that you can quickly apply to add extra functionality and style without completely changing the interface.
 
 # What’s inside?
 > **Subtle visual tweaks:** Small changes that make Discord look nicer and easier to read—like glows on users, bigger avatars, hover effects, shadowed text, and more.
