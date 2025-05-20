@@ -4,14 +4,13 @@ This project is an organized collection of small, practical, and efficient CSS s
 You won’t find complicated themes or major overhauls here—just clear, easy-to-understand code that you can quickly apply to add extra functionality and style without completely changing the interface.
 
 # What’s inside?
-> **Subtle visual tweaks:**
-Small changes that make Discord look nicer and easier to read—like glows on users, bigger avatars, hover effects, shadowed text, and more.
-> **Useful optimizations:**
-Tiny features that simplify using Discord—hiding unnecessary buttons, improving server lists, clearer status indicators, custom badges, and more.
-> **No complicated themes:**
-Individual, modular snippets you can enable separately, no need to load a full theme. Perfect for quick and precise customization.
-> **Vencord compatible:**
-Tested and optimized to work smoothly with Discord through Vencord’s CSS loader, making sure performance and stability aren’t affected.
+> **Subtle visual tweaks:** Small changes that make Discord look nicer and easier to read—like glows on users, bigger avatars, hover effects, shadowed text, and more.
+
+> **Useful optimizations:** Tiny features that simplify using Discord—hiding unnecessary buttons, improving server lists, clearer status indicators, custom badges, and more.
+
+> **No complicated themes:** Individual, modular snippets you can enable separately, no need to load a full theme. Perfect for quick and precise customization.
+
+> **Vencord compatible:** Tested and optimized to work smoothly with Discord through Vencord’s CSS loader, making sure performance and stability aren’t affected.
 
 # Why use this collection?
 
